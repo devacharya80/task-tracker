@@ -1,0 +1,32 @@
+/* Smooth transitions for all interactive elements */
+.dashboard-hover, .spec-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Dashboard hover effect */
+.dashboard-hover:hover {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Micro-interaction */
+.spec-btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Optional */
+.text-gradient {
+    background: linear-gradient(45deg, #ffffff, #cbd5e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Mobile full-width fix for buttons */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        align-items: stretch !important;
+    }
+    .dashboard-hover {
+        text-align: center;
+    }
+}

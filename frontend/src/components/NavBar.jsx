@@ -30,7 +30,7 @@ function NavBar() {
             
             {/* Dashboard Link */}
             <li className="nav-item">
-              <Link className="nav-link text-white-50 dashboard-hover px-3 py-2 rounded" to="/">
+              <Link className="nav-link text-white-50 dashboard-hover px-3 py-2 rounded" to="/dashboard">
                 Dashboard
               </Link>
             </li>

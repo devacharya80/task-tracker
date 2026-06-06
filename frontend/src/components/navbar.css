@@ -21,6 +21,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.navbar{
+    position: sticky !important;
+}
+
 /* Mobile full-width fix for buttons */
 @media (max-width: 991.98px) {
     .navbar-nav {

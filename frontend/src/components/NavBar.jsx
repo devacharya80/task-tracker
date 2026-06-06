@@ -4,7 +4,7 @@ import "./navbar.css"
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 px-4 py-3 shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 px-4 py-3 shadow ">
       <div className="container-fluid">
         {/* Brand Logo  */}
         <Link className="navbar-brand fw-bold fs-4 text-white text-gradient" to="/">

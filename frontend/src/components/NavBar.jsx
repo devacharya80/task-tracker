@@ -4,7 +4,7 @@ import "./navbar.css"
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 px-4 py-3 shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary border-opacity-25 px-4 py-3 shadow ">
       <div className="container-fluid">
         {/* Brand Logo  */}
         <Link className="navbar-brand fw-bold fs-4 text-white text-gradient" to="/">
@@ -30,7 +30,7 @@ function NavBar() {
             
             {/* Dashboard Link */}
             <li className="nav-item">
-              <Link className="nav-link text-white-50 dashboard-hover px-3 py-2 rounded" to="/">
+              <Link className="nav-link text-white-50 dashboard-hover px-3 py-2 rounded" to="/dashboard">
                 Dashboard
               </Link>
             </li>

@@ -5,11 +5,13 @@ const cors = require('cors')
 
 const connectToDb = require("./config/db.js")
 const authRouter = require("./routes/authRoutes.js")
+const taskRouter = require("./routes/taskRoutes");
 
 app.use(cors());
 app.use(express.json())
 
 app.use("/api/auth",authRouter)
+app.use("/api/tasks", taskRouter);
 
 const PORT = process.env.PORT || 5000;
 

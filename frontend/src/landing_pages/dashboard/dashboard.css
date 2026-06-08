@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
+  min-height: 100vh;
+}
+
+/* Dashboard Container */
+.container {
+  color: white;
+}
+
+/* Header */
+h2 {
+  font-weight: 700;
+  color: white;
+}
+
+/* Add Task Button */
+.btn-primary {
+  background: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+/* Form Card */
+.card {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 16px !important;
+  color: white !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Labels */
+.form-label {
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.form-control::placeholder {
+  color: #cbd5e1;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: white !important;
+  border-color: #3b82f6 !important;
+  box-shadow: none !important;
+}
+
+/* Create Task Button */
+.btn-success {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px 18px;
+}
+
+/* Empty State */
+.text-center h5 {
+  color: #cbd5e1;
+  margin-top: 50px;
+}
+
+/* Task Grid Animation */
+.col-md-6 {
+  transition: transform 0.3s ease;
+}
+
+.col-md-6:hover {
+  transform: translateY(-4px);
+}

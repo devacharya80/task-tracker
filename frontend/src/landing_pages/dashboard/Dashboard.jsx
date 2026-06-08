@@ -1,6 +1,6 @@
-
 // Dashboard.jsx
 import { useState } from "react";
+import "./dashboard.css";
 import TaskCard from "../../components/TaskCard";
 
 function Dashboard() {
